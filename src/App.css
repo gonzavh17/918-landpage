@@ -424,7 +424,12 @@
     display: none;
 }
 
-
+.spec-item{
+  font-size: 14px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .specs-list{
   width: 90%;
