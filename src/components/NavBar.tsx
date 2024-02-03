@@ -7,17 +7,17 @@ function NavBar() {
     <div className="nav-bar">
       <div className="nav-bar-item_container">
         <BlackReveal backgroundColor="#fff">
-          <p className="nav-bar-item">Contact</p>
+          <a href="#specs" className="nav-bar-item">Specs</a>
         </BlackReveal>
       </div>
       <div className="nav-bar-item_container">
         <BlackReveal backgroundColor="#fff">
-          <p className="nav-bar-item">Specs</p>
+          <a href="#performance" className="nav-bar-item">Performance</a>
         </BlackReveal>
       </div>
       <div className="nav-bar-item_container">
         <BlackReveal backgroundColor="#fff">
-          <p className="nav-bar-item">History</p>
+          <a href="#history" className="nav-bar-item">History</a>
         </BlackReveal>
       </div>
     </div>

@@ -3,7 +3,10 @@ import NavBar from "./NavBar";
 import Home from "./home"
 import History from "./History";
 import Specs from "./Specs"
-import Performance from "./Performance";
+import Footer from "./footer";
+import Specifications from "./Specifications";
+
+
 function LandPage() {
   return (
     <div>
@@ -11,7 +14,8 @@ function LandPage() {
       <Home />
       <History />
       <Specs />
-      <Performance/>
+      <Specifications/>
+      <Footer/>
     </div>
   );
 }

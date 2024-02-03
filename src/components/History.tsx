@@ -6,7 +6,7 @@ import { BlackReveal } from "../animations/BlackReveal";
 
 function History() {
   return (
-    <div className="history">
+    <div className="history" id="history">
       <p className="history-title">Journey begins</p>
 
       <div className="history-description_container">
